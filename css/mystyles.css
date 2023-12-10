@@ -1,0 +1,61 @@
+
+/* This is the mystyles.css file */
+body {
+  background: url('../assets/IMG_4416.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn-orange {
+  background-color: #fd7e14; /* Orange background */
+  border-color: #fd7e14; /* Orange border */
+  color: white; /* Text color - white is a common choice for readability */
+}
+.btn-outline-custom {
+  color: #0dcaf0; /* Text color */
+  border-color: #0dcaf0; /* Border color */
+}
+.btn-outline-custom:hover {
+  background-color: #0dcaf0; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+.btn-cyan {
+  background-color: #0dcaf0; /* Cyan background */
+  border-color: #0dcaf0; /* Cyan border */
+  color: white; /* White text for better readability */
+}
+.btn-cyan:hover {
+  background-color: darken(#0dcaf0, 10%); /* Darker cyan on hover for a subtle effect */
+  border-color: darken(#0dcaf0, 10%);
+  color: white;
+}
+.btn-orange {
+  background-color: #fd7e14; /* Orange background */
+  border-color: #fd7e14; /* Orange border */
+  color: white; /* White text for better readability */
+}
+.btn-orange:hover {
+  background-color: darken(#fd7e14, 10%); /* Slightly darker orange on hover for a subtle effect */
+  border-color: darken(#fd7e14, 10%);
+  color: white;
+}
+.btn-custom {
+  background-color: #00ffff; /* Aqua blue color */
+  border-color: #00ffff; /* Aqua blue border */
+}
+.contact-info p {
+  font-size: 24px; /* Adjust the size as needed */
+}
+.contact-info a {
+  font-size: 24px; /* Adjust the size as needed */
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+
